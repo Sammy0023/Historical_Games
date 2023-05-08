@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Historical Games</string>
+    <string name="tetris">As the game progresses, the blocks fall faster and the player must think quickly to keep up. The game ends when the blocks stack up to the top of the playing field, and there is no more room for new blocks to fall.</string>
+    <string name="word_search">The words to be found are typically listed at the bottom of the puzzle, and they may be themed, such as containing words related to a specific topic or subject. Word search puzzles can vary in difficulty, with some featuring only a handful of words to find, while others may have dozens of words hidden in a large grid.</string>
+    <string name="sudoku">Sudoku is a logic-based puzzle game that involves filling a 9x9 grid with digits from 1 to 9 in such a way that each row, column, and 3x3 subgrid contains all of the digits from 1 to 9 without repetition. The puzzle starts with some of the cells already filled in, and the player\'s task is to fill in the remaining cells so that the above rules are satisfied.</string>
+</resources>

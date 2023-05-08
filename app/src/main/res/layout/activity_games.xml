@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_historical_games_main"
+    tools:context=".GamesActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bugaki_oblique"
+        android:text="@string/app_name"
+        android:textColor="#141D71"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/firstLevel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/firstLevel"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/bg_textview"
+        android:fontFamily="@font/bugaki"
+        android:gravity="center"
+        android:text="Tetris"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/secondLevel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/secondLevel"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bg_textview"
+        android:fontFamily="@font/bugaki"
+        android:gravity="center"
+        android:text="Word Search"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/thirdLevel"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/bg_textview"
+        android:fontFamily="@font/bugaki"
+        android:gravity="center"
+        android:text="Sudoku"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/secondLevel"
+        app:layout_constraintStart_toStartOf="@+id/secondLevel"
+        app:layout_constraintTop_toBottomOf="@+id/secondLevel" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
